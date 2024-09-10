@@ -1,13 +1,26 @@
-# Sistema de Cadastro de Alunos
 
-Este projeto é um programa que solicita a entrada da idade, peso e altura de alunos, calculando a soma de números inteiros de 1 até a idade informada. O programa continua pedindo entradas até que o usuário insira zero como idade, o que termina o processo.
+# Máquina de Café
+
+Este projeto é um programa que simula uma máquina de café, permitindo ao usuário escolher entre até 8 tipos de café. O programa exibe as opções disponíveis e permite ao usuário selecionar um café pelo número correspondente.
 
 ## Descrição
 
-O programa funciona da seguinte forma:
-- Solicita ao usuário que insira a idade, peso e altura de um aluno.
-- Calcula e exibe a soma de todos os números inteiros de 1 até a idade informada.
-- O programa continua a solicitar entradas até que o usuário digite zero para a idade, encerrando o programa.
+O programa realiza as seguintes operações:
+- Solicita ao usuário que insira até 8 tipos de café.
+- Exibe a lista dos cafés inseridos.
+- Permite ao usuário selecionar um dos cafés disponíveis através de uma escolha numérica.
+- Exibe o café escolhido ou uma mensagem de erro caso a opção seja inválida.
+
+## Exercícios
+
+A tabela abaixo organiza as informações dos exercícios abordados pelo programa:
+
+| Exercício                  | Descrição                                                                 |
+|----------------------------|---------------------------------------------------------------------------|
+| Inicialização dos Cafés    | O programa solicita ao usuário que insira os nomes de até 8 cafés.       |
+| Exibição dos Cafés         | Exibe a lista de cafés disponíveis na máquina.                           |
+| Escolha do Café            | Permite ao usuário escolher um café pelo número correspondente (1 a 8).  |
+| Validação da Escolha       | Verifica se a escolha do usuário é válida e exibe o café escolhido.      |
 
 ## Instalação
 
@@ -15,4 +28,5 @@ Para rodar o programa, siga as instruções abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/seu-usuario/maquina-de-cafe.git
+
